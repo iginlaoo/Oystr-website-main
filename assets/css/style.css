@@ -4857,7 +4857,7 @@ blockquote cite {
         font-size: 16px; } }
 
 .appie-about-page-area {
-  padding-top: 462px;
+  padding-top: 30px;
   padding-bottom: 100px;
   background-image: url(../images/about-page-bg.jpg);
   background-size: cover;
@@ -4866,8 +4866,8 @@ blockquote cite {
   margin-top: 345px; }
   @media (max-width: 767px) {
     .appie-about-page-area {
-      margin-top: 80px;
-      padding-top: 80px; } }
+      margin-top: 0px;
+      padding-top: 0px; } }
 
 .appie-about-page-content {
   position: relative; }
@@ -4895,10 +4895,10 @@ blockquote cite {
     position: absolute;
     content: '';
     left: 0;
-    top: -710px;
-    height: 645px;
-    width: 80vw;
-    background-image: url(../images/about-page-thumb.jpg);
+    top: -610px;
+    height: 345px;
+    width: 50vw;
+    background-image: url(../images/about-page-thumbb.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat; }
@@ -4914,7 +4914,7 @@ blockquote cite {
     @media only screen and (min-width: 576px) and (max-width: 767px) {
       .appie-about-page-content::before {
         width: 100%;
-        height: 400px;
+        height: 0px;
         display: block; } }
 
 .appie-how-it-work-content > .title {
