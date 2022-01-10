@@ -50,6 +50,9 @@
         .gist{
             width: 100%;
         }
+        html {
+              scroll-behavior: smooth !important;
+        }
     </style>
   
 </head>
@@ -89,21 +92,21 @@
                                     <a href="#" class="black-color">Home</a>
                                 </li>
                                 <li class="menu-item-has-children active">
-                                    <a href="about-us.html">About Us</a>
+                                    <a href="#features" class="black-color">Company</a>
                                 </li>
                                 <li class="menu-item-has-children active">
-                                    <a href="#">Solutions</a>
+                                    <a href="#service">Solutions</a>
                                     <ul class="sub-menu">
-                                        <li><a href="index.html">For financial institutions</a></li>
-                                        <li><a href="index-2.html">For MMOs and Retail companies</a></li>
+                                        <li><a href="#service">For financial institutions</a></li>
+                                        <li><a href="#service">For MMOs and Retail companies</a></li>
                                     </ul>
                                 </li>
                                 <li class="menu-item-has-children active">
-                                    <a href="#testimonial">APIs & SDKs</a>
+                                    <a href="#developers">Developers</a>
                                 </li>
                                 
                                 <li class="menu-item-has-children active">
-                                    <a href="contact.html">Contact</a>
+                                    <a href="#contact">Contact</a>
                                 </li>
                             </ul>
                         </div>
@@ -150,22 +153,22 @@
                                     <a href="#">Home</a>
                                 </li>
                                 <li>
-                                    <a href="about-us.html">About Us</a>
+                                    <a href="#features">Company</a>
                                 </li>
                                 <li> 
-                                    <a href="#">Solutions <i class="fal fa-angle-down"></i></a>
+                                    <a href="#service">Solutions <i class="fal fa-angle-down"></i></a>
                                     <ul class="sub-menu" style="min-width: 300px">
-                                        <li><a href="index.html">For Financial Institutions</a></li>
-                                         <li><a href="index-2.html">For MMOs & Retail Companies</a></li>
+                                        <li><a href="#service">For Financial Institutions</a></li>
+                                         <li><a href="#service">For MMOs & Retail Companies</a></li>
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="#">Developers</a>
+                                    <a href="#developers">Developers</a>
                                 </li>
                                 <li>
-                                    <a href="#"> Partners</a>
+                                    <a href="#partners"> Partners</a>
                                 </li>
-                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="#contact">Contact</a></li>
                             </ul>
                         </div>
                     </div>
@@ -187,14 +190,21 @@
 
     <!--====== APPIE HERO PART START ======-->
     
-    <section class="appie-hero-area appie-hero-6-area appie-hero-7-area" style="background-image: none;background-color: #fff; color: #000">
+    <section class="appie-hero-area appie-hero-6-area appie-hero-7-area" style="background-image: none;background-color: #fff; color: #000" name="index">
         <div class="container" style="background-color: #fff; color: #000" style="margin: 0">
             <div class="row " style="background-color: #fff; color: #000">
                 <div class="col-lg-7" style="margin: 0">
                     <div class="appie-hero-content appie-hero-content-6 appie-hero-content-7">
-                        <h1 class="appie-title" style="color: #000">Financial Identity For The Unbanked </h1>
-                        <p class="black-color">Oystr opens a completely new world of opportunities for businesses to reach out to over 4 Billion unbanked population in Africa by empowering businesses with
-                            a unique financial identity for the unbanked, historical financial transaction records across providers & intelligent credit analysis and scoring models.</p>
+                        <h5 class="" style="color: #000; font-size: 50px">Building financial identities for millions of underserved people in Africa </h5>
+                        <p class="black-color"><br />
+                            Oystr is a FiDaas (Financial identity as a service) platform that analyzes mobile money
+                                data to build financial identities for over 600 million African populations who are digitally
+                                financially underserved.</p>
+                        <p class="black-color"><br />
+                                Oystr identities help millions of the continent underserved population to get access to
+                                formal financial services such as; Credit, Investment, Insurance, Mortgages, Cashbacks
+                                etc.
+                        </p>
                         <ul>
                             <li><a class="item-2" href="#" style="color: #000"><i class="fab fa-apple"></i> <span>IOS<span>SDK</span></span></a></li>
                             <li><a class="item-2" href="#" style="color: #000"><i class="fab fa-google-play"></i> <span>Android <span>SDK</span></span></a></li>
@@ -223,7 +233,7 @@
 
     <!--====== APPIE FEATURES PART START ======-->
     
-    <section class="appie-features-area pt-100" id="features">
+    <section class="appie-features-area pt-100" id="features" name="features">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -337,9 +347,76 @@
     
     <!--====== APPIE FEATURES PART ENDS ======-->
 
+     <!--====== APPIE SERRVICE 2 PART START ======-->
+    
+     <section class="appie-services-2-area pt-90 pb-55" id="service" name="service">
+        <div class="container">
+            <div class="row align-items-end">
+                <div class="col-lg-6 col-md-8">
+                    <div class="appie-section-title">
+                        <h3 class="appie-title">We are driven by our Solutions</h3>
+                        <p>Oystr solutions for businesses. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-8">
+                    <div class="appie-single-service-2 appie-single-service-about mt-30 wow animated fadeInUp" data-wow-duration="2000ms" data-wow-delay="200ms">
+                        <div class="icon" style="float: left;margin-right: 20px;">
+                            <i class="fal fa-credit-card"></i>
+                        </div>
+                        <h4 class="title" style="padding-top: 10px; padding-bottom: 20px">For Financial Institutions</h4>
+                        <div style="clear: both"></div>
+                        <p>Oystr builds financial institutions build highly predictive financial identities through mobile money operators
+                            transactions. Lenders can then apply those insights to target qualified leads, screen applicants, 
+                            and optimize loan portfolio management.</p>
+                            
+                        <p><br />
+                           <ul style="list-style-type:square; padding-left: 30px;">
+                                <li style="margin-bottom: 15px"><strong>Target new customers:</strong> Discover new customer segments and target pre-qualified consumers with growth campaigns.</li>
+                                <li style="margin-bottom: 15px"><strong>Deepen relationships:</strong> Expand the products and services offered to the existing
+                                    customer base, maximize lifetime value.</li>
+                                <li><strong>Manage risk:</strong> Alternative credit data provides insights into underserved consumers with
+                                    no credit history to limit exposure</li>
+                           </ul> 
+                        </p>
+
+
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="appie-single-service-2 appie-single-service-about item-2 mt-30 wow animated fadeInUp" data-wow-duration="2000ms" data-wow-delay="400ms">
+                        <div class="icon" style="float: left;margin-right: 20px;">
+                            <i class="fal fa-shopping-cart"></i>
+                        </div>
+                        <h4 class="title" style="padding-top: 10px; padding-bottom: 20px">For MMOs & Retail Companies</h4>
+                        <div style="clear: both"></div>
+                        <p>Millions of underserved Africans uses informal methods to process
+                            financial transactions through MMOs & agents, and buy from their local
+                            neighbourhood stores. With Oystr, these transactions can be digitized and
+                            commercialized by the service providers.</p>
+
+                        <p><br />
+                            <ul style="list-style-type:square; padding-left: 30px;">
+                                    <li style="margin-bottom: 15px"><strong>Increase revenue:</strong> Easily digitize and commercialize customers transactions on your
+                                        platform by using Oystr to collect and record customers’ details at the point of sale.</li>
+                                    <li style="margin-bottom: 15px"><strong>Increase customer loyalty:</strong> Use informed data to increase customers loyalty by
+                                        serving them what they want.</li>
+                                    <li><strong>SYC (Serve your customer):</strong> Upsell your customers and offer them more services;
+                                        Instore credit, quick loan, discount etc.</li>
+                            </ul> 
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--====== APPIE SERRVICE 2 PART ENDS ======-->
+
      <!--====== APPIE COUNTER PART START ======-->
     
-     <section class="appie-counter-area pt-75 pb-190">
+     <section class="appie-counter-area pt-75 pb-190" name="partners" id="partners">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -431,7 +508,7 @@
 
     <!--====== APPIE DOWNLOAD PART START ======-->
     
-    <section class="appie-download-area pt-150 pb-160">
+    <section class="appie-download-area pt-150 pb-160" name="developers" id="developers">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5">
@@ -611,7 +688,7 @@
 
     <!--====== APPIE FOOTER PART START ======-->
     
-    <section class="appie-footer-area">
+    <section class="appie-footer-area" name="contact" id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-6">
@@ -620,7 +697,7 @@
                             <a href="#"><img src="assets/images/oystr_logo_t.png" alt="" height="50px"></a>
                         </div>
                         <p>Oystr is building financial identities for millions of underserved people in Africa.</p>
-                        <a href="#">Read More <i class="fal fa-arrow-right"></i></a>
+                        
                         <div class="social mt-30">
                             <ul>
                                 <li><a href="https://facebook.com/pages/oystrfinance"><i class="fab fa-facebook-f"></i></a></li>
@@ -726,6 +803,33 @@
     
     <!--====== Main js ======-->
     <script src="assets/js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+          // Add smooth scrolling to all links
+          $("a").on('click', function(event) {
+        
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+              // Prevent default anchor click behavior
+              event.preventDefault();
+        
+              // Store hash
+              var hash = this.hash;
+        
+              // Using jQuery's animate() method to add smooth page scroll
+              // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+              $('html, body').animate({
+                scrollTop: $(hash).offset().top
+              }, 800, function(){
+        
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+              });
+            } // End if
+          });
+        });
+        </script>
 
 </body>
 
